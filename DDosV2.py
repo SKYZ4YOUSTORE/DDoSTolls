@@ -70,7 +70,7 @@ if __name__ == "__main__":
     banner()
     
     if len(sys.argv) != 3:
-        print("Usage: python doysz666.py <target_ip> <port>")
+        print("Usage: python3 DDosV2.py <target_ip> <port>")
         sys.exit(1)
     
     target = sys.argv[1]
